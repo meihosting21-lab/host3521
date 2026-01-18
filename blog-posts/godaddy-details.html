@@ -855,7 +855,8 @@
         <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
                 <h4 class="text-white text-lg font-bold mb-4">Best10Hosts.</h4>
-                <p class="text-sm">Helping you find the perfect home for your website since 2025.</p>
+                <p class="text-sm">Helping you find the perfect home for your website since <span
+                        data-current-year></span>.</p>
             </div>
             <div>
                 <h4 class="text-white text-lg font-bold mb-4">Quick Links</h4>
@@ -910,6 +911,7 @@
     </div>
 
 
+    <script src="../js/date-updater.js"></script>
     <script>
         // MOBILE MENU LOGIC
         const btn = document.getElementById('mobile-menu-btn');

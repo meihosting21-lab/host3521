@@ -390,9 +390,11 @@
                     <ul class="!mb-0">
                         <li><strong>Go for .com:</strong> It is the most trusted extension.</li>
                         <li><strong>Avoid Hyphens:</strong> <em>Best-Pizza-Place.com</em> looks spammy.
-                            <em>BestPizza.com</em> is better.</li>
+                            <em>BestPizza.com</em> is better.
+                        </li>
                         <li><strong>Keep it Broad:</strong> Don't limit yourself. <em>JohnsTech.com</em> is better than
-                            <em>JohnsIphoneReviews.com</em> because later you might want to review laptops too.</li>
+                            <em>JohnsIphoneReviews.com</em> because later you might want to review laptops too.
+                        </li>
                     </ul>
                 </div>
                 <p>
@@ -616,7 +618,8 @@
                     <div class="flex items-center gap-3 mb-3">
                         <div
                             class="w-10 h-10 bg-orange-100 text-orange-600 rounded-lg flex items-center justify-center text-lg">
-                            <i class="fa-solid fa-gauge-high"></i></div>
+                            <i class="fa-solid fa-gauge-high"></i>
+                        </div>
                         <span class="text-xs font-bold text-slate-400 uppercase">Performance</span>
                     </div>
                     <h3 class="font-bold text-slate-900 group-hover:text-orange-600 transition">Speed Up WordPress</h3>
@@ -629,7 +632,8 @@
                     <div class="flex items-center gap-3 mb-3">
                         <div
                             class="w-10 h-10 bg-green-100 text-green-600 rounded-lg flex items-center justify-center text-lg">
-                            <i class="fa-solid fa-lock"></i></div>
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
                         <span class="text-xs font-bold text-slate-400 uppercase">Security</span>
                     </div>
                     <h3 class="font-bold text-slate-900 group-hover:text-green-600 transition">Free SSL Guide</h3>
@@ -642,7 +646,8 @@
                     <div class="flex items-center gap-3 mb-3">
                         <div
                             class="w-10 h-10 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center text-lg">
-                            <i class="fa-solid fa-trophy"></i></div>
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
                         <span class="text-xs font-bold text-slate-400 uppercase">Offer</span>
                     </div>
                     <h3 class="font-bold text-slate-900 group-hover:text-blue-600 transition">Hostinger Special Deal
@@ -658,7 +663,8 @@
         <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
                 <h4 class="text-white text-lg font-bold mb-4">Best10Hosts.</h4>
-                <p class="text-sm">Helping you find the perfect home for your website since 2025.</p>
+                <p class="text-sm">Helping you find the perfect home for your website since <span
+                        data-current-year></span>.</p>
             </div>
             <div>
                 <h4 class="text-white text-lg font-bold mb-4">Quick Links</h4>
@@ -687,6 +693,7 @@
         </div>
     </footer>
 
+    <script src="../js/date-updater.js"></script>
     <script>
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');

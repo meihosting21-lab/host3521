@@ -409,14 +409,17 @@
                 <div class="bg-slate-900 text-white p-8 rounded-2xl mb-12">
                     <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <li class="!before:content-['•'] !before:text-green-400 !pl-4 !text-slate-300">
-                            <strong>Speed:</strong> Must have NVMe Storage & LiteSpeed Caching.</li>
+                            <strong>Speed:</strong> Must have NVMe Storage & LiteSpeed Caching.
+                        </li>
                         <li class="!before:content-['•'] !before:text-green-400 !pl-4 !text-slate-300">
-                            <strong>Security:</strong> Free SSL, Daily Backups & WAF Protection.</li>
+                            <strong>Security:</strong> Free SSL, Daily Backups & WAF Protection.
+                        </li>
                         <li class="!before:content-['•'] !before:text-green-400 !pl-4 !text-slate-300">
                             <strong>Support:</strong> 24/7 Priority Support (Trained WordPress/WooCommerce Experts).
                         </li>
                         <li class="!before:content-['•'] !before:text-green-400 !pl-4 !text-slate-300">
-                            <strong>Scale:</strong> Easy upgrade path to VPS/Cloud hosting if you grow rapidly.</li>
+                            <strong>Scale:</strong> Easy upgrade path to VPS/Cloud hosting if you grow rapidly.
+                        </li>
                     </ul>
                 </div>
 
@@ -639,7 +642,8 @@
         <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
                 <h4 class="text-white text-lg font-bold mb-4">Best10Hosts.</h4>
-                <p class="text-sm">Helping you find the perfect home for your website since 2025.</p>
+                <p class="text-sm">Helping you find the perfect home for your website since <span
+                        data-current-year></span>.</p>
             </div>
             <div>
                 <h4 class="text-white text-lg font-bold mb-4">Quick Links</h4>
@@ -668,6 +672,7 @@
         </div>
     </footer>
 
+    <script src="../js/date-updater.js"></script>
     <script>
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
